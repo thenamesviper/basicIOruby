@@ -1,4 +1,4 @@
-lines = File.readlines("oliver.txt")
+lines = File.readlines(ARGV[0]) ##oliver.txt from cl
 line_count = lines.size
 text = lines.join
 total_characters = text.length
